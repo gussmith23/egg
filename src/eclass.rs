@@ -13,7 +13,7 @@ pub struct EClass<L, D> {
     pub nodes: Vec<L>,
     /// The analysis data associated with this eclass.
     pub data: D,
-    pub(crate) parents: Vec<(L, Id)>,
+    pub parents: Vec<(L, Id)>,
 }
 
 impl<L, D> EClass<L, D> {
